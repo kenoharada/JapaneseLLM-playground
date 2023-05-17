@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: nvcr.io/nvidia/pytorch:23.04-py3
+
+%post
+    export DEBIAN_FRONTEND=noninteractive
+    apt-get update -y
+
+    pip install setuptools
+    pip install wandb transformers datasets tqdm tiktoken openai sentencepiece
