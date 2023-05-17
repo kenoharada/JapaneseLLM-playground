@@ -1,7 +1,9 @@
 # Setup
 
 ## Marc-ja
+
 ```
+cd evaluations
 wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_multilingual_JP_v1_00.tsv.gz
 wget https://raw.githubusercontent.com/yahoojapan/JGLUE/main/preprocess/marc-ja/scripts/marc-ja.py
 mkdir datasets
