@@ -7,3 +7,5 @@ From: nvcr.io/nvidia/pytorch:23.04-py3
 
     pip install setuptools
     pip install wandb transformers datasets tqdm tiktoken openai sentencepiece
+    # for JGLUE
+    pip install bs4 zenhan mecab-python3 pyknp

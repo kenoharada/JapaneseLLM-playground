@@ -2,7 +2,7 @@
 ```
 ssh -A abci
 git clone git@github.com:kenoharada/JapaneseLLM-playground.git
-qrsh -g $GROUP_ID -l rt_AG.small=1 -l h_rt=3:00:00
+qrsh -g $GROUP_ID -l rt_AF=1 -l h_rt=12:00:00
 cd JapaneseLLM-playground
 module load singularitypro
 nohup singularity build --nv -f llm.sif llm.def &
